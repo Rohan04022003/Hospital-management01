@@ -1,0 +1,316 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.margin-bottom {
+  margin-bottom: 6rem;
+}
+
+.mid1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------------------For centers Section------------------------------ */
+
+.centers,
+.centers1 {
+  display: flex;
+  gap: 1rem;
+}
+
+.left-div-centers {
+  flex-basis: 40%;
+}
+
+.left-div-centers img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.right-div-centers {
+  display: flex;
+  flex-wrap: wrap;
+  height: 630px;
+  overflow: hidden;
+  overflow-y: auto;
+  flex-basis: 60%;
+}
+
+.right-div-centers .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  width: 8rem;
+  padding: 1rem;
+  margin: 0.8rem 1rem 1rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.13), 0 1px 4px 0 rgba(0, 0, 0, 0.11);
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.right-div-centers .col:hover {
+  border: 1px solid rgb(255, 166, 0);
+}
+
+.right-div-centers .col img {
+  width: 4rem;
+}
+
+.right-div-centers .col h5 {
+  padding-top: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.right-div-centers::-webkit-scrollbar,
+.healthcare-data::-webkit-scrollbar {
+  width: 6px;
+}
+
+.right-div-centers::-webkit-scrollbar-track,
+.healthcare-data::-webkit-scrollbar-track {
+  background: rgb(228, 228, 228);
+  border-radius: 20px;
+}
+
+.right-div-centers::-webkit-scrollbar-thumb,
+.healthcare-data::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 115, 182);
+  border-radius: 20px;
+  border: 1px solid rgb(0, 115, 182);
+}
+
+/* ---------------------------------Why Choose Apollo Healthcare?------------------------------------------- */
+
+.left-div-healthcare {
+  flex-basis: 70%;
+}
+
+.right-div-healthcare {
+  flex-basis: 30%;
+}
+
+.right-div-healthcare img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.flex-shrink-0 {
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.13), 0 1px 4px 0 rgba(0, 0, 0, 0.11);
+}
+
+.healthcare-data {
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+/* ------------------------------location-------------------------------------- */
+
+.location-centers-box {
+  height: 412px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.location-centers-box .col img {
+  width: 4rem;
+}
+
+.location-centers-box .col {
+  width: 10rem !important;
+  height: 7rem;
+}
+
+/* ------------------------------------------Patient care--------------------------- */
+
+.patient-care-box {
+  height: 530px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.patient-care .col {
+  margin: 0.3rem;
+  width: 19rem;
+  height: 6rem;
+  border-radius: 10px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.13), 0 1px 4px 0 rgba(0, 0, 0, 0.11);
+}
+
+.patient-care .col img {
+  width: 2rem;
+}
+
+.number-hover:hover {
+  color: white;
+  border: transparent;
+  transition: 0.4s ease;
+  background-color: rgb(0, 115, 182);
+}
+
+/* -------------------------For Footer Section--------------------------------- */
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 0;
+}
+
+.keep-in-touch i {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.keep-in-touch a {
+  color: white;
+}
+
+.keep-in-touch a:hover {
+  color: rgb(205, 205, 205);
+  transition: 0.6s ease;
+}
+
+.policy {
+  display: flex;
+}
+
+.policy p {
+  padding: 0 0.6rem;
+  cursor: pointer;
+}
+
+.policy p:hover {
+  color: rgb(205, 205, 205);
+  transition: 0.6s ease;
+}
+
+/* ------------------------------------------------------------------ */
+
+@media (max-width: 1400px) {
+  .right-div-centers {
+    height: 535px;
+  }
+
+  .location-centers-box {
+    height: 352px;
+  }
+
+  .patient-care-box {
+    height: 431px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .right-div-centers {
+    height: 447px;
+  }
+
+  .location-centers-box {
+    height: 295px;
+  }
+
+  .healthcare-data {
+    height: 180px;
+  }
+
+  .patient-care-box {
+    height: 360px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .margin-bottom {
+    margin-bottom: 0;
+  }
+
+  .py-5 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .col-10 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .centers {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .centers1 {
+    flex-wrap: wrap-reverse;
+    gap: 0;
+  }
+
+  .right-div-centers {
+    margin-top: 2rem;
+  }
+
+  .left-div-centers {
+    flex-basis: 100%;
+  }
+
+  .right-div-centers {
+    flex-basis: 100%;
+  }
+
+  .left-div-healthcare {
+    flex-basis: 100%;
+    margin-top: 2rem;
+  }
+
+  .right-div-healthcare {
+    flex-basis: 100%;
+  }
+
+  .healthcare-data {
+    height: 243px;
+  }
+
+  .patient-care-details .left-div-centers {
+    display: none;
+  }
+
+  .patient-care-box {
+    height: 462px;
+  }
+
+  .number-hover {
+    margin-top: 0;
+  }
+
+  .number-hover h4 {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer p {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .healthcare-data {
+    height: 462px;
+  }
+}

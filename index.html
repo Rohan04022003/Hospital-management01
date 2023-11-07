@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="./images/hero section/favicon.png">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Apollo Hospital</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light w-100 p-3 shadow-sm p-3 bg-body sticky-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand me-5 fs-4 fw-bold" href="#">APOLLO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarSupportedContent"
+          style="font-weight: 600"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active px-2" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" aria-current="page" href="./news.html"
+                >News</a
+              >
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" aria-current="page" href="./find-a-doctor.html">Find A Doctor</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" aria-current="page" href="./contact.html">Contact Us</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Patient Care
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./apollo-surgery.html"
+                    >Apollo Surgery – Assured Price</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="./pay-online.html">Pay Online</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="text-nowrap d-flex">
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success me-2" type="submit">
+                Search
+              </button>
+            </form>
+            <a href="./login.html"
+              ><button class="btn btn-primary login" type="submit">
+                Login
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div
+        class="row flex-lg-row-reverse align-items-center g-5 py-5 margin-bottom"
+      >
+        <div class="col-10 col-sm-8 col-lg-6">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./images/hero section/img1.jpg"
+                  class="d-block mx-lg-auto img-fluid"
+                  alt="images"
+                  width="700"
+                  height="500"
+                  loading="lazy"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/hero section/img2.jpg"
+                  class="d-block mx-lg-auto img-fluid"
+                  alt="images"
+                  width="700"
+                  height="500"
+                  loading="lazy"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/hero section/img3.jpg"
+                  class="d-block mx-lg-auto img-fluid"
+                  alt="images"
+                  width="700"
+                  height="500"
+                  loading="lazy"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/hero section/img4.jpg"
+                  class="d-block mx-lg-auto img-fluid"
+                  alt="images"
+                  width="700"
+                  height="500"
+                  loading="lazy"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/hero section/img5.jpg"
+                  class="d-block mx-lg-auto img-fluid"
+                  alt="images"
+                  width="700"
+                  height="500"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">APPOINMENT</h1>
+          <p class="lead text-muted" style="font-weight: 600">
+            Apollo Hospital is like a medical sanctuary where the healing vibes
+            are as strong as the Wi-Fi signal in the waiting room. The doctors
+            here must have Ph.Ds in empathy because they always make you feel
+            better, even before the treatment begins. If you ever need medical
+            attention, Apolo Hospital is the place to be.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+              Get Appoinment
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              Health Check-Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <hr class="featurette-divider my-4" />
+      <div class="row">
+        <h2
+          class="pb-2 d-flex justify-content-center text-muted my-4"
+          id="our-team"
+        >
+          OUR DOCTORS
+        </h2>
+        <div class="col-lg-4 mid1 px-4">
+          <img
+            src="./images/doctors/img1.jpg"
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+          />
+          <h3 class="pt-3">Dr. George A. Beller</h3>
+
+          <p class="text-muted" style="font-weight: 600">
+            Dr. George A. Beller is amongst the most experienced and best
+            cardiologist in Delhi.In 35 years of practice he has handled and
+            treated some very complicated cases of adult cardiac
+            catheterization, angiography, and acute coronary emergencies.
+          </p>
+          <p><a class="btn btn-primary" href="#">View details »</a></p>
+        </div>
+        <div class="col-lg-4 mid1 px-4">
+          <img
+            src="./images/doctors/img2.jpg"
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+          />
+
+          <h3 class="pt-3">Dr. Mary E. Jensen</h3>
+          <p class="text-muted" style="font-weight: 600">
+            Dr. Mary E. Jensen is a Neuroradiologist and a Radiologist in
+            Greenville, South Carolina. Dr. Mary E. Jensen and is highly rated
+            in 3 conditions, according to our data. His top areas of expertise
+            are Collapsed Lung, Pleurisy, Pleural Effusion, and Stroke.
+          </p>
+          <p><a class="btn btn-primary" href="#">View details »</a></p>
+        </div>
+        <div class="col-lg-4 mid1 px-4">
+          <img
+            src="./images/doctors/img3.jpg"
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+          />
+
+          <h3 class="pt-3">Dr. John P. DiMarco</h3>
+          <p class="text-muted" style="font-weight: 600">
+            Dr. John P. DiMarco Presently working as a Sr. Consultant in
+            Cardiology Department at BLK Super Speciality Hospital, New Delhi
+            Fellowship in Electrophysiology and Pacing National Heart Centre -
+            SINGAPORE.
+          </p>
+          <p><a class="btn btn-primary" href="#">View details »</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <hr class="featurette-divider my-4" />
+      <h2
+        class="pb-2 d-flex justify-content-center text-muted mt-5"
+        id="our-team"
+      >
+        EXPLORE OUR CENTERS
+      </h2>
+      <p
+        class="d-flex justify-content-center mb-5 text-muted"
+        style="font-size: 0.9rem; font-weight: 600"
+      >
+        First class health care we provide
+      </p>
+      <div class="centers">
+        <div class="left-div-centers">
+          <img src="./images/doctors/img4.webp" />
+        </div>
+
+        <div class="right-div-centers">
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/cardiology_icon.svg"
+              alt="icon"
+            />
+            <h5>Cardiology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/neurology.svg"
+              alt="icon"
+            />
+            <h5>Neurology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/gastroenterology.svg"
+              alt="icon"
+            />
+            <h5>Gastroenterology</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/orthopaedic.svg"
+              alt="icon"
+            />
+            <h5>Orthopaedic</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/oncology_icon.svg"
+              alt="icon"
+            />
+            <h5>Oncology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/gynecology.svg"
+              alt="icon"
+            />
+            <h5>Gynecology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/dermatology.svg"
+              alt="icon"
+            />
+            <h5>Dermatology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/ophthalmology.svg"
+              alt="icon"
+            />
+            <h5>Ophthalmology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/paediatricurology.svg"
+              alt="icon"
+            />
+            <h5>Pediatrics</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/endocrinology.svg"
+              alt="icon"
+            />
+            <h5>Endocrinology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/urology.svg"
+              alt="icon"
+            />
+            <h5>Urology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/nephrology.svg"
+              alt="icon"
+            />
+            <h5>Nephrology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/pulmonology.svg"
+              alt="icon"
+            />
+            <h5>Pulmonology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/rheumatology.svg"
+              alt="icon"
+            />
+            <h5>Rheumatology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/neurology.svg"
+              alt="icon"
+            />
+            <h5>Neurosurgery</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/radiology.svg"
+              alt="icon"
+            />
+            <h5>Radiology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/plasticsurgery.svg"
+              alt="icon"
+            />
+            <h5>Plastic surgery</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/neonatology.svg"
+              alt="icon"
+            />
+            <h5>Neonatology</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/dentistry.svg"
+              alt="icon"
+            />
+            <h5>Dentistry</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/psychiatry.svg"
+              alt="icon"
+            />
+            <h5>Psychiatry</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <hr class="featurette-divider my-4" />
+      <h2
+        class="pb-2 d-flex justify-content-center text-muted mt-5"
+        id="our-team"
+      >
+        ABOUT APOLLO HEALTHCARE
+      </h2>
+      <p
+        class="d-flex justify-content-center mb-5 text-muted"
+        style="font-size: 0.9rem; font-weight: 600"
+      >
+        First class health care we provide
+      </p>
+      <div class="centers1">
+        <div class="left-div-healthcare">
+          <h2
+            class="pb-2 d-flex justify-content-md-start text-success"
+            id="our-team"
+          >
+            Why Choose Apollo Healthcare
+          </h2>
+          <p class="text-muted">
+            Established by Dr Prathap C Reddy in 1983, Apollo Healthcare has a
+            robust presence across the healthcare ecosystem. From routine
+            wellness & preventive health care to innovative life-saving
+            treatments and diagnostic services, Apollo Hospitals has touched
+            more than 200 million lives from over 120 countries
+          </p>
+
+          <div class="row g-xl-5 g-2 pt-lg-4 pt-2 pb-3 pb-lg-0 healthcare-data">
+            <div class="col-md-6">
+              <div class="d-flex gap-3">
+                <!-- <div class="vr"></div> -->
+                <div class="d-flex gap-4 py-2 pt-3 why_point">
+                  <div class="flex-shrink-0">
+                    <img
+                      src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/healinghands.svg"
+                      alt=""
+                      class="point_icon"
+                    />
+                  </div>
+                  <div class="flex-grow-1 why_ah_points">
+                    <h4 class="text-success fw-bolder">73+</h4>
+                    <div class="text-muted" style="font-weight: 600">
+                      Largest private healthcare network of Hospitals
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="d-flex gap-3">
+                <!-- <div class="vr"></div> -->
+                <div class="d-flex gap-4 py-2 pt-3 why_point">
+                  <div class="flex-shrink-0">
+                    <img
+                      src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/adavanced.svg"
+                      alt=""
+                      class="point_icon"
+                    />
+                  </div>
+                  <div class="flex-grow-1 why_ah_points">
+                    <h4 class="text-success fw-bolder">1,100+</h4>
+                    <div class="text-muted" style="font-weight: 600">
+                      Diagnostic centres across India
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex gap-3">
+                <!-- <div class="vr"></div> -->
+                <div class="d-flex gap-4 py-2 pt-3 why_point">
+                  <div class="flex-shrink-0">
+                    <img
+                      src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/pharmacies.svg"
+                      alt=""
+                      class="point_icon"
+                    />
+                  </div>
+                  <div class="flex-grow-1 why_ah_points">
+                    <h4 class="text-success fw-bolder">5,000+</h4>
+                    <div class="text-muted" style="font-weight: 600">
+                      Pharmacies
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="d-flex gap-3">
+                <!-- <div class="vr"></div> -->
+                <div class="d-flex gap-4 py-2 pt-3 why_point">
+                  <div class="flex-shrink-0">
+                    <img
+                      src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/pharmacies.svg"
+                      alt=""
+                      class="point_icon"
+                    />
+                  </div>
+                  <div class="flex-grow-1 why_ah_points">
+                    <h4 class="text-success fw-bolder">11,000+</h4>
+                    <div class="text-muted" style="font-weight: 600">
+                      Doctors
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-div-healthcare">
+          <img src="./images/doctors/img5.webp" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <hr class="featurette-divider my-4" />
+      <h2
+        class="pb-2 d-flex justify-content-center text-muted mt-5"
+        id="our-team"
+      >
+        HOSPITALS IN INDIA
+      </h2>
+      <p
+        class="d-flex justify-content-center mb-5 text-muted"
+        style="font-size: 0.9rem; font-weight: 600"
+      >
+        Apollo Group constitutes the best hospital in India with over 10,000
+        beds across 73 hospitals, 5000+ pharmacies, over 300 clinics, 1100+
+        diagnostic centres and 200+ Telemedicine units.
+      </p>
+      <div class="centers">
+        <div class="left-div-centers">
+          <img src="./images/doctors/img6.jpg" />
+        </div>
+
+        <div class="right-div-centers location-centers-box">
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/ahmedabad_city.svg"
+              alt="icon"
+            />
+            <h5>Ahmedabad</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/ahmedabad_city.svg"
+              alt="icon"
+            />
+            <h5>Aragonda</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/bangalore_city.svg"
+              alt="icon"
+            />
+            <h5>Bangalore</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/bhubaneshwar_city.svg"
+              alt="icon"
+            />
+            <h5>Bhubaneshwar</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/bangalore_city.svg"
+              alt="icon"
+            />
+            <h5>Bilaspur</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/lucknow_city.svg"
+              alt="icon"
+            />
+            <h5>Bhopal</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/chennai_city.svg"
+              alt="icon"
+            />
+            <h5>Chennai</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/delhi_city.svg"
+              alt="icon"
+            />
+            <h5>Delhi</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/guwahati_city.svg"
+              alt="icon"
+            />
+            <h5>Guwahati</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/hyderabad_city.svg"
+              alt="icon"
+            />
+            <h5>Hyderabad</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/indore_city.svg"
+              alt="icon"
+            />
+            <h5>Indore</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/kakinada_city.svg"
+              alt="icon"
+            />
+            <h5>Kakinada</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/kakinada_city.svg"
+              alt="icon"
+            />
+            <h5>Karur</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/kolkata_city.svg"
+              alt="icon"
+            />
+            <h5>Kolkata</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/kakinada_city.svg"
+              alt="icon"
+            />
+            <h5>Kochi</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/lucknow_city.svg"
+              alt="icon"
+            />
+            <h5>Lucknow</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/madurai_city.svg"
+              alt="icon"
+            />
+            <h5>Madurai</h5>
+          </div>
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/mumbai_city.svg"
+              alt="icon"
+            />
+            <h5>Mumbai</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/mysore_city.svg"
+              alt="icon"
+            />
+            <h5>Mysore</h5>
+          </div>
+
+          <div class="col">
+            <img
+              src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/nashik_city.svg"
+              alt="icon"
+            />
+            <h5>Nashik</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <hr class="featurette-divider my-5" />
+      <h5
+        class="d-flex justify-content-center text-muted"
+        style="font-weight: 600"
+      >
+        The Apollo World of Care
+      </h5>
+      <h2
+        class="pb-2 d-flex justify-content-center text-muted mb-5"
+        id="our-team"
+      >
+        INTERNATIONAL PATIENT CARE
+      </h2>
+      <div class="centers patient-care-details">
+        <div class="right-div-centers patient-care-box" style="margin-top: 0">
+          <div class="d-flex" style="flex-wrap: wrap">
+            <div class="col">
+              <img
+                src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_hsptl.svg"
+                alt="icon"
+              />
+              <h5>Hospitals</h5>
+            </div>
+            <div class="col">
+              <img
+                src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_speciality.svg"
+                alt="icon"
+              />
+              <h5>Speciality</h5>
+            </div>
+            <div class="col">
+              <img
+                src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_planyourtrip.svg"
+                alt="icon"
+              />
+              <h5>Plan Your Trip</h5>
+            </div>
+            <div class="col">
+              <img
+                src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_testimonials.svg"
+                alt="icon"
+              />
+              <h5>Testimonials</h5>
+            </div>
+            <div class="col">
+              <img
+                src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_faq.svg"
+                alt="icon"
+              />
+              <h5>FAQ’s</h5>
+            </div>
+            <div class="col">
+              <img
+                src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_doctor.svg"
+                alt="icon"
+              />
+              <h5>Find A Doctor</h5>
+            </div>
+            <div class="col">
+              <img
+                src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_onlineconsultation.svg"
+                alt="icon"
+              />
+              <h5>Online Consultation</h5>
+            </div>
+            <div class="col">
+              <img
+                src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_Apollo Insurance.svg"
+                alt="icon"
+              />
+              <h5>Apollo Insurance</h5>
+            </div>
+            <div class="col">
+              <img
+                src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v2/images/ips_visa.svg"
+                alt="icon"
+              />
+              <h5>Visa</h5>
+            </div>
+          </div>
+          <div
+            class="col number-hover"
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-top: 50px;
+              height: 4.8rem;
+              border: 3px solid rgb(0, 115, 182);
+            "
+          >
+            <h4>
+              International Number<span
+                style="margin-left: 1rem; font-weight: 600"
+                >+91 8404973614</span
+              >
+            </h4>
+          </div>
+        </div>
+
+        <div class="left-div-centers number-img">
+          <img src="./images/doctors/img6.webp" />
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-light">
+      <div class="copyright">
+        <p>© Apollo Hospital 2023. All Rights Reserved.</p>
+      </div>
+      <div class="keep-in-touch">
+        <a  href="https://www.facebook.com/profile.php?id=100015224166657" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://instagram.com/rohankumarmahto01?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/rohan-kumar-5521aa253" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Rohan04022003" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="policy">
+        <p>Privacy policy</p>
+        <p>|</p>
+        <p>Disclaimer</p>
+        <p>|</p>
+        <p>Contact</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

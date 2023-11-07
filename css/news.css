@@ -1,0 +1,16 @@
+body{
+    scroll-behavior: smooth;
+}
+
+.news-box{
+    overflow: hidden;
+}
+
+.news-img{
+    overflow: hidden;
+}
+
+.news-box:hover img{
+    transition: 0.8s ease;
+    scale: 1.2;
+}

@@ -1,0 +1,36 @@
+body{
+    scroll-behavior: smooth;
+}
+
+.about-surgery{
+    flex-basis: 60%;
+}
+
+.about-surgery h2{
+    padding-bottom: 1rem;
+}
+
+.about-surgery p{
+    line-height: 1.5rem;
+}
+
+.surgery-img{
+    flex-basis: 30%;
+}
+
+.main-surgery-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1000px){
+
+    .main-surgery-section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

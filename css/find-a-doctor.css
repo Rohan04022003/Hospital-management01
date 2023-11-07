@@ -1,0 +1,101 @@
+body{
+    scroll-behavior: smooth;
+}
+
+.modal-body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.right .modal-body .col{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  width: 5rem;
+  padding: 1rem;
+  margin: 0.8rem 1rem 1rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.13), 0 1px 4px 0 rgba(0, 0, 0, 0.11);
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.right .modal-body .col:hover {
+    border: 1px solid rgb(255, 166, 0);
+  }
+
+.right .modal-body .col img{
+    width: 2.9rem;
+}
+
+.right .modal-body .col h5{
+    margin-top: 0.3rem;
+    font-size: 0.7rem;
+}
+
+.doctors-section-slider img{
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.13), 0 1px 4px 0 rgba(0, 0, 0, 0.11);
+}
+
+.inner-doctors-section{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+    cursor: pointer;
+}
+
+.inner-doctors-section h6{
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.inner-doctors-section > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+/* --------------------designing of scroll bar------------------------- */
+
+.inner-doctors-section::-webkit-scrollbar {
+  height: 8px;
+}
+
+.inner-doctors-section::-webkit-scrollbar-track{
+  background: rgb(228, 228, 228);
+  border-radius: 20px;
+}
+
+.inner-doctors-section::-webkit-scrollbar-thumb{
+  background-color: rgb(0, 115, 182);
+  border-radius: 20px;
+  border: 1px solid rgb(0, 115, 182);
+}
+
+.videos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.videos img{
+    margin-bottom: 2rem;
+    cursor: pointer;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.13), 0 1px 4px 0 rgba(0, 0, 0, 0.11);
+}
+
+
+@media (max-width: 1200px){
+
+    .videos{
+        display: flex;
+        justify-content: space-around;
+    }
+}
